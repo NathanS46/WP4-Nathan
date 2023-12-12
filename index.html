@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <style>
+      body {
+        background-image: url(Images/Img1.JPG);
+        background-size:100%,auto;
+        background-repeat: no-repeat;
+      }
+      p {
+        padding: 50px;
+        border-radius: 50px;
+        border-width: 10px;
+        font-size: 31px;
+      }
+      .a {
+        margin: 0px 100px 0px 100px;
+      }
+      .b{
+        margin: 0px 0px 0px 550px
+      }
+      .sticky{
+        position: sticky;
+        top:0;
+        position: -webkit-sticky;
+      }
+        .an {
+        position: relative;
+        animation-name: ani;
+        animation-duration: 4s;
+      }
+
+      @keyframes ani {
+        0% {
+          left: 1000px;
+          top: 0px;
+          opacity: 0.1;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+          opacity: 1;
+        }
+      }
+      .moves {
+        position: relative;
+        animation-name: anima;
+        animation-duration: 4s;
+      }
+
+      @keyframes anima {
+        0% {
+          left: 0px;
+          top: -500px;
+          opacity: 0.1;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="an">
+        <h1 style="color: white">Naawi-Oodena</h1>
+      </div>
+      <nav class="move"  style="padding: 0px">
+        <a href="index.html">Home</a>
+        <a href="info.html">Information</a>
+        <a href="offer.html">What we offer</a>
+        <a href="Contact.html">Contact Us!</a>
+      </nav>
+    </header>
+    <main>
+      <div class="a"></div>
+      <h1
+        style="
+          text-align: center;
+          color: rgb(242, 242, 242);
+          border-radius: 50px;
+          padding: 10px;
+          border-width: 10px;
+          font-size: 100px;
+        "
+      >
+        Naawi-Oodena
+      </h1>
+      </div>
+      <div class="b">
+      <a
+        class="moves"
+        href="info.html"
+        style="
+          text-align: center;
+          font-size: 25px;
+          color: black;
+          text-align: center;
+          justify-content: center;
+          padding: 25px;
+          border: 5px white solid;
+          text-decoration: none;
+          background-color: rgba(255, 255, 255, 0.495);
+        "
+        >Click here to learn more!</a
+      >
+      
+      </div>
+      </main>
+      <div style="height:100px">
+      <p style="margin-top: 400px;">Come visit Naawi-Oodena today!</p>
+      </div>
+    
+  </body>
+</html>
