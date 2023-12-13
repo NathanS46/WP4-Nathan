@@ -26,6 +26,14 @@
           color: white;
         }
       }
+      input[type="text"] {
+        width: 100px;
+        -webkit-transition: width .35s ease-in-out;
+        transition: width .35s ease-in-out;
+      }
+      input[type="text"]:focus {
+        width: 250px;
+      }
     </style>
   </head>
   <body>
@@ -40,6 +48,44 @@
         <a href="Contact.html">Contact Us!</a>
       </nav>
     </header>
-    <h1 style="text-align: center; font-size: 50px">Reach Out!</h1>
+    
+    <h1 style=" font-size: 50px;padding:2%">Reach Out!</h1>
+    <div style="text-align: center;">
+    <h1 style="font-size: 40px;">Treaty One Office
+    </h1>
+    <p>Phone Number: 204-783-3110</br></p>
+    <p>Email: inquiries@treaty1.ca</br></p>
+    <div>
+    <p>Address: 103-1075 Portage Avenue | Winnipeg, Manitoba, R3G 0R8</p>
+    <img src="Images/Map1.JPG" width="450px" height="450px" style="justify-content: right; align-content: right;">
+    <a href="https://treaty1.ca/">Visit the Treaty One Website</a>
+    
+    <h1 style="font-size: 40px;">Re-Max Real Estate</h1>
+    <p>Phone Number: Will vary from agent</p>
+    <p>Email: WIll vary from agent</p>
+    <p>Address: #340 1060 Manhattan Drive|Kelowna, BC V1Y 9X9</p>
+    <img src="Images/Map2.JPG" width="450px" height="450px">
+    <a href="https://www.remax.ca/mb/winnipeg-real-estate?pageNumber=1">Visit the Re-Max Website here</a></br></br>
+    
+    <h1>Request a viewing</h1>
+    </div>
+    <form action="index.html">
+  <label for="aname">First name:</label><br>
+  <input type="text" id="aname" name="aname"><br>
+  <label for="bname">Last name:</label><br>
+  <input type="text" id="bname" name="bname">
+  <h2>Select An agent!</h2>
+  <input type="radio" id="1" name="person" value="1">
+  <label for="1">Jimmy Timmy</label><br>
+  <input type="radio" id="2" name="person" value="2">
+  <label for="2"> John Doe</label><br>
+  <input type="radio" id="3" name="person" value="3">
+  <label for="3">Laura Laura</label></br>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt"></br>
+  <label for="day">Day</label>
+  <input type="date" id="day" name="day"></br>
+  <input type="submit" value="Submit">
+</form>
   </body>
 </html>
