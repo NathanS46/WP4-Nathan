@@ -1,3 +1,9 @@
+<!-- Name:Nathan Shewfelt
+Course: Computer Science 40SPT
+Teacher: Ms Hoitink
+School: Pembina Trails Collgiate/PTEC
+Date last motified: Wednesday December 20th 2023 -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,8 +12,9 @@
     <title>Main</title>
     <link rel="stylesheet" href="css/css.css" />
     <style>
+      /* internal style sheet for index page */
       body {
-        background-image: url(Images/Img1.JPG);
+        background-image: url(Images/image.jpg);
         background-size: 100%, auto;
         background-repeat: no-repeat;
       }
@@ -33,7 +40,7 @@
         animation-name: ani;
         animation-duration: 4s;
       }
-
+      /* the keyframes for the animation for moving the nav bar */
       @keyframes ani {
         0% {
           left: 1000px;
@@ -49,7 +56,7 @@
       .moves {
         position: relative;
         animation-name: anima;
-        animation-duration: 4s;
+        animation-duration: 2.4s;
       }
 
       @keyframes anima {
@@ -68,17 +75,39 @@
   </head>
   <body>
     <header>
+      <!-- this header contains the main points at the top of the page like the nav bar and title-->
       <div class="an">
         <h1 style="color: white">Naawi-Oodena</h1>
       </div>
+      <!-- nav links
+      Link to the home page -->
       <nav class="move" style="padding: 0px">
-        <a href="index.html">Home</a>
-        <a href="info.html">Information</a>
-        <a href="offer.html">What we offer</a>
-        <a href="Contact.html">Contact Us!</a>
+        <a href="index.html" alt="The link to the home/Main page of my website"
+          >Home</a
+        >
+        <!-- Link to the info page -->
+        <a
+          href="info.html"
+          alt="The link to the information page showing all the perks of Naawi-Oodena"
+          >Information</a
+        >
+        <!-- Link to the offer page -->
+        <a
+          href="offer.html"
+          alt="The link to the houses we offer page at Naawi-Oodena"
+          >What we offer</a
+        >
+        <!-- Link to the contact us page -->
+        <a
+          href="Contact.html"
+          alt="The link to the page where you can contact us about Real Estate or business"
+          >Contact Us!</a
+        >
       </nav>
     </header>
+    <!-- End of the header and start of the main content -->
     <main>
+      <!-- Class for the text on the button -->
       <div class="a">
         <h1
           style="
@@ -93,6 +122,7 @@
           Naawi-Oodena
         </h1>
       </div>
+      <!-- Class for the button animation and function -->
       <div class="b">
         <a
           class="moves"
@@ -115,6 +145,7 @@
     <div style="height: 100px">
       <p style="margin-top: 400px">Come visit Naawi-Oodena today!</p>
     </div>
+    <!-- Talking about Naawi-Oodena -->
     <p>
       Naawi-Oodena is a community for everyone in Winnipeg! We have activities
       for the whole city and Fun for people with all interests! You dont need to
@@ -123,6 +154,7 @@
       Naawi-Oodena!
     </p>
   </body>
+  <!-- Start of the footer tag at the end of each page -->
   <footer
     style="
       background-color: #118ab2;
@@ -141,3 +173,4 @@
     >
   </footer>
 </html>
+<!-- end of the page -->
