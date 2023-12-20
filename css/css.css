@@ -1,3 +1,5 @@
+/* i chose this colour scheme because they are light and welcoming colours that i thought had a 
+nice pastel colour scheme. I think that this represents Naawi-oodena well because they are a welcoming community */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -38,6 +40,7 @@ nav a:hover {
 }
 h1 {
   color: #073b4c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
   color: #073b4c;
